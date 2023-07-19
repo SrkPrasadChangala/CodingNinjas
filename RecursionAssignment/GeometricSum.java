@@ -13,7 +13,7 @@ public class solution {
 			return 1;
 		}
 
-		double smallans=findGeometricSum(k-1);
-        	return smallans+(1/Math.pow(2,k));
+		double ans=findGeometricSum(k-1);
+        	return ans+(1/Math.pow(2,k));
 	}
 }
